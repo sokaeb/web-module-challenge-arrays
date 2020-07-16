@@ -1,34 +1,34 @@
-// var originalFlavors = ["Banana Nut Fudge",
-//     "Black Walnut",
-//     "Burgundy Cherry",
-//    "Butterscotch Ribbon",
-//     "Cherry Macaron",
-//     "Chocolate",
-//     "Chocolate Almond",
-//     "Chocolate Chip",
-//     "Chocolate Fudge",
-//     "Chocolate Mint",
-//     "Chocolate Ribbon",
-//     "Coffee",
-//     "Coffee Candy",
-//     "Date Nut",
-//     "Eggnog",
-//     "French Vanilla",
-//     "Green Mint Stick",
-//     "Lemon Crisp",
-//     "Lemon Custard",
-//     "Lemon Sherbet",
-//     "Maple Nut",
-//     "Orange Sherbet",
-//     "Peach",
-//     "Peppermint Fudge Ribbon",
-//     "Peppermint Stick",
-//     "Pineapple Sherbet",
-//     "Raspberry Sherbet",
-//     "Rocky Road",
-//     "Strawberry",
-//     "Vanilla",
-//     "Vanilla Burnt Almond"]
+var originalFlavors = ["Banana Nut Fudge",
+    "Black Walnut",
+    "Burgundy Cherry",
+   "Butterscotch Ribbon",
+    "Cherry Macaron",
+    "Chocolate",
+    "Chocolate Almond",
+    "Chocolate Chip",
+    "Chocolate Fudge",
+    "Chocolate Mint",
+    "Chocolate Ribbon",
+    "Coffee",
+    "Coffee Candy",
+    "Date Nut",
+    "Eggnog",
+    "French Vanilla",
+    "Green Mint Stick",
+    "Lemon Crisp",
+    "Lemon Custard",
+    "Lemon Sherbet",
+    "Maple Nut",
+    "Orange Sherbet",
+    "Peach",
+    "Peppermint Fudge Ribbon",
+    "Peppermint Stick",
+    "Pineapple Sherbet",
+    "Raspberry Sherbet",
+    "Rocky Road",
+    "Strawberry",
+    "Vanilla",
+    "Vanilla Burnt Almond"]
 
 /* Task 1: Confirm that the array is exactly 31 flavors. Your function should accept:
 
@@ -187,7 +187,7 @@ function getAverageWordLength(arr){
     let avgNum = total/arr.length;
     return avgNum;
 }
-console.log(getAverageWordLength(seasonalFlavors));
+console.log(getAverageWordLength(originalFlavors));
 
 /* STRETCH 2: Baskin Robins now offers new flavors, seasonal flavors, and even regional flavors. Write a function that will randomly select a total of 31 flavors from originalFlavors, currentFlavors, seasonalFlavors, and regionalFlavors.
 
